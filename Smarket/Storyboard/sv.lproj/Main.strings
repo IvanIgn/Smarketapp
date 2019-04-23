@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "0TI-Oo-hdb"; */
+"0TI-Oo-hdb.text" = "Plats";
+
+/* Class = "UILabel"; text = "Telefon:"; ObjectID = "2Rb-Mj-CY2"; */
+"2Rb-Mj-CY2.text" = "Telefon:";
+
+/* Class = "UIButton"; normalTitle = "Add a photo"; ObjectID = "45E-GZ-5Od"; */
+"45E-GZ-5Od.normalTitle" = "Ta bild";
+
+/* Class = "UILabel"; text = "Location:"; ObjectID = "5RX-VB-hoJ"; */
+"5RX-VB-hoJ.text" = "Plats:";
+
+/* Class = "UIButton"; normalTitle = "Add a photo"; ObjectID = "75Y-yb-ILo"; */
+"75Y-yb-ILo.normalTitle" = "Ta bild";
+
+/* Class = "UITextField"; placeholder = "Type your password"; ObjectID = "B5i-hd-h8X"; */
+"B5i-hd-h8X.placeholder" = "Ange lösenord";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "Deu-iT-zdy"; */
+"Deu-iT-zdy.text" = "Email";
+
+/* Class = "UILabel"; text = "Telefon:"; ObjectID = "Ghf-vy-0t8"; */
+"Ghf-vy-0t8.text" = "Telefon:";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "Ixg-Bn-yZx"; */
+"Ixg-Bn-yZx.text" = "Namn:";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "JHt-m9-VvE"; */
+"JHt-m9-VvE.text" = "Email:";
+
+/* Class = "UIButton"; normalTitle = "Show"; ObjectID = "JtL-Fo-Sj9"; */
+"JtL-Fo-Sj9.normalTitle" = "Visa";
+
+/* Class = "UILabel"; text = "Telefon:"; ObjectID = "KhV-Gg-Np6"; */
+"KhV-Gg-Np6.text" = "Telefon:";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "LSj-Ew-57o"; */
+"LSj-Ew-57o.normalTitle" = "Logga in";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "O5F-mA-vPu"; */
+"O5F-mA-vPu.text" = "Lösenord";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "OyL-TA-ZzJ"; */
+"OyL-TA-ZzJ.normalTitle" = "Logga in";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "PZz-ND-SHo"; */
+"PZz-ND-SHo.normalTitle" = "Sign up";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QTK-wx-Dz8"; */
+"QTK-wx-Dz8.text" = "Label";
+
+/* Class = "UILabel"; text = "add your name"; ObjectID = "S8B-VJ-Z3s"; */
+"S8B-VJ-Z3s.text" = "tillägg ditt namn";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "SPv-00-unG"; */
+"SPv-00-unG.text" = "Namn:";
+
+/* Class = "UIButton"; normalTitle = "Forgot password"; ObjectID = "V77-h4-qxr"; */
+"V77-h4-qxr.normalTitle" = "Glömt lösenord";
+
+/* Class = "UILabel"; text = "0000000000"; ObjectID = "WMp-AY-UzD"; */
+"WMp-AY-UzD.text" = "0000000000";
+
+/* Class = "UILabel"; text = "Product name"; ObjectID = "ZFg-LJ-JfE"; */
+"ZFg-LJ-JfE.text" = "Produktnamn";
+
+/* Class = "UILabel"; text = "add your email"; ObjectID = "ajh-Ka-1UX"; */
+"ajh-Ka-1UX.text" = "tillägg din email";
+
+/* Class = "UITextField"; placeholder = "Type your email"; ObjectID = "bp1-Yc-LnB"; */
+"bp1-Yc-LnB.placeholder" = "Ange din email";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "csv-ct-tb1"; */
+"csv-ct-tb1.normalTitle" = "Fortsätt";
+
+/* Class = "UILabel"; text = "Product name"; ObjectID = "efv-Bq-acU"; */
+"efv-Bq-acU.text" = "Produktnamn";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "h54-n3-WED"; */
+"h54-n3-WED.text" = "Email:";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "hlS-MR-mnx"; */
+"hlS-MR-mnx.text" = "Beskrivning:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "jLq-PU-MZy"; */
+"jLq-PU-MZy.text" = "Pris:";
+
+/* Class = "UISearchBar"; jVP-HU-qVz.scopeButtonTitles[0] = "Title"; ObjectID = "jVP-HU-qVz"; */
+"jVP-HU-qVz.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; jVP-HU-qVz.scopeButtonTitles[1] = "Title"; ObjectID = "jVP-HU-qVz"; */
+"jVP-HU-qVz.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "mqZ-BP-axY"; */
+"mqZ-BP-axY.text" = "Lösenord";
+
+/* Class = "UILabel"; text = "Re-type Password"; ObjectID = "ndy-go-DEc"; */
+"ndy-go-DEc.text" = "Skriv ditt lösenord igen";
+
+/* Class = "UILabel"; text = "add your telefon"; ObjectID = "oA4-00-pqd"; */
+"oA4-00-pqd.text" = "tillägg din telefonnummer";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "oUo-pc-s0e"; */
+"oUo-pc-s0e.normalTitle" = "Skapa ett konto";
+
+/* Class = "UILabel"; text = "Location:"; ObjectID = "pBZ-tI-MuI"; */
+"pBZ-tI-MuI.text" = "Plats:";
+
+/* Class = "UILabel"; text = "Tel.:"; ObjectID = "pM5-v4-Nnh"; */
+"pM5-v4-Nnh.text" = "Tel.:";
+
+/* Class = "UILabel"; text = "Product name:"; ObjectID = "qKW-RM-aJZ"; */
+"qKW-RM-aJZ.text" = "Produktnamn:";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "rwC-e0-tWV"; */
+"rwC-e0-tWV.text" = "";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "sFF-6W-e2f"; */
+"sFF-6W-e2f.text" = "Email";
+
+/* Class = "UILabel"; text = "Price: 0000 kr"; ObjectID = "uue-SG-Dvz"; */
+"uue-SG-Dvz.text" = "Pris: 0000 kr";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "y5d-lD-P68"; */
+"y5d-lD-P68.text" = "Pris:";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "yG6-4u-Z6d"; */
+"yG6-4u-Z6d.text" = "Stad";

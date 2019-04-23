@@ -1,0 +1,6 @@
+framework module Pods_SmarketUITests {
+  umbrella header "Pods-SmarketUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
