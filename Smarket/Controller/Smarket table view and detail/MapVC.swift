@@ -23,9 +23,12 @@ class MapVC: UIViewController, MKMapViewDelegate {
         super.viewDidLoad()
         smarketMap.delegate = self
         
+        let alertTitle1 = NSLocalizedString("Error", comment: "")
+        let alertText1 = NSLocalizedString("No location found!", comment: "")
+        
 
         if advert.location == "no location" {
-            let alertController = UIAlertController(title: "Error", message: "No location found!", preferredStyle: .alert)
+            let alertController = UIAlertController(title: alertTitle1, message: alertText1, preferredStyle: .alert)
             //let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             let defaultAction = UIAlertAction(title: "OK", style: .cancel) { (UIAlertAction) in
                 self.navigationController!.popViewController(animated: true)

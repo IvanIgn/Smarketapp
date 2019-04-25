@@ -15,7 +15,7 @@ class MyCell: UITableViewCell {
     @IBOutlet weak var productNameLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
-   // @IBOutlet weak var timeLabel: UILabel!
+    //@IBOutlet weak var timeLabel: UILabel!
     
     func configureCell(advert: Advert) {
         if advert.image == "" {
@@ -28,6 +28,12 @@ class MyCell: UITableViewCell {
         productNameLabel.font = UIFont.boldSystemFont(ofSize: 18.0)
         locationLabel.text = advert.location
         priceLabel.text = advert.price
-       // timeLabel.text = advert.timestamp.calenderTimeSinceNow()
+        
+        //let formatter = DateFormatter()
+        //formatter.dateFormat = "dd.MM.yyyy hh:mm"
+        //let curTime = formatter.string(from: advert.time)
+        //print(curTime)
+       // timeLabel.text = curTime
+        //advert.timestamp.calenderTimeSinceNow()
     }
 }

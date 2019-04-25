@@ -39,12 +39,22 @@ class LoginVC: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func loginAction(_ sender: Any) {
+        let alertTitle1 = NSLocalizedString("Error", comment: "")
+        let alertText1 = NSLocalizedString("You have entered an incorrect username or password. Please enter the correct information and try again.", comment: "")
+        
         Auth.auth().signIn(withEmail: email.text!, password: password.text!) { (user, error) in
             if error == nil{
                 self.performSegue(withIdentifier: "loginToHome", sender: self)
             }
             else{
-                let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+//                let alertController = UIAlertController(title: "Error", message: "You have entered an incorrect username or password. Please enter the correct information and try again."/*error?.localizedDescription*/, preferredStyle: .alert)
+//                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+//
+//                alertController.addAction(defaultAction)
+//                self.present(alertController, animated: true, completion: nil)
+                
+                let alertController = UIAlertController(title: alertTitle1, message: alertText1
+                    /*error?.localizedDescription*/, preferredStyle: .alert)
                 let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                 
                 alertController.addAction(defaultAction)

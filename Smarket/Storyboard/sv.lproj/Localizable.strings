@@ -6,4 +6,13 @@
   Copyright © 2019 TechCompetence. All rights reserved.
 */
 
-"addmail" = "Skriv din mailadress";
+
+"Error" =  "Fel";
+
+"You have entered an incorrect username or password. Please enter the correct information and try again." = "Du har angivit ett felaktigt användarnamn eller lösenord. Vänligen skriv in korrekta uppgifter och försök igen.";
+
+"Password Incorrect" = "Lösenord stämmer icke";
+
+"Please re-type password" ="Vänligen skriv lösenordet igen";
+
+"No location found!" = "Ingen plats hittad!";

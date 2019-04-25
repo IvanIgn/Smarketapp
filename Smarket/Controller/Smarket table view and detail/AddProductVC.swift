@@ -77,7 +77,7 @@ class AddProductVC: UIViewController, UITextFieldDelegate, UITextViewDelegate, U
         let productName = addProductName.text!
         let price = addProductPrice.text!
         let description = addProductDesc.text!
-        var image = ""
+        //var image = ""
         let location = addProductLocation.text!
         let telefon = addProductTelefon.text!
         //let timestamp = Date()
@@ -101,7 +101,7 @@ class AddProductVC: UIViewController, UITextFieldDelegate, UITextViewDelegate, U
             
             imageRef.downloadURL { (url, error) in
                 guard let downloadURL = url else { return }
-                let advert = Advert(image: downloadURL.absoluteString, productName: productName, price: price, location: location, telefon: telefon, description: description/*timestamp: Date()*/)
+                let advert = Advert(image: downloadURL.absoluteString, productName: productName, price: price, location: location, telefon: telefon, description: description)
                 self.advertCollectionRef.addDocument(data: advert.toAny()) { (error) in
                     if let error = error {
                         debugPrint("Error adding document: \(error.localizedDescription)")

@@ -19,19 +19,17 @@ class Advert {
     var telefon: String!
     var description: String!
     var timestamp: Date!
-    //var createdAt: Date
     var documentID: String!
     var detailImage: UIImage!
+
     
-    init(image: String, productName: String, price: String, location: String, telefon: String, description: String/*, timestamp: Date*/) {
+    init(image: String, productName: String, price: String, location: String, telefon: String, description: String) {
         self.image = image
         self.productName = productName
         self.price = price
         self.location = location
         self.telefon = telefon
         self.description = description
-        
-        // self.timestamp = timestamp
     }
     
     init(snapshot: QueryDocumentSnapshot) {
@@ -41,10 +39,10 @@ class Advert {
         location = snapshot["location"] as? String ?? "default location"
         telefon = snapshot["telefon"] as? String ?? "default telefon"
         description = snapshot["description"] as? String ?? "some words about product..."
-        //createdAt = snapshot["timestamp"] as? Date ?? Date()
-
-        //let time = snapshot["timestamp"] as! Timestamp
-        //timestamp = time.dateValue()
+        timestamp = snapshot["timestamp"] as? Date ?? Date()
+       
+        // timestamp = snapshot["timestamp"] as? Date
+        
         documentID = snapshot.documentID
     }
     
@@ -56,7 +54,7 @@ class Advert {
                 "location": location != "" ? location : "no location",
                 "telefon": telefon != "" ? telefon : "no telefon number",
                 "description": description != "" ? description : "no description",
-                "timestamp":  FieldValue.serverTimestamp()]
+                "timestamp":  FieldValue.serverTimestamp() ]
     }
 }
 

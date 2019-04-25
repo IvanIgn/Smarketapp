@@ -15,10 +15,12 @@ import SDWebImage
 class ProfileVC: UIViewController {
 
   
+    @IBOutlet weak var nameLabel1: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var telefonLabel: UILabel!
+    @IBOutlet weak var telefonLabel1: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
-   // @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var emailLabel1: UILabel!
     @IBOutlet weak var photoImage: UIImageView!
     
     
@@ -44,6 +46,10 @@ class ProfileVC: UIViewController {
         
         photoImage.layer.cornerRadius = 10
         photoImage.clipsToBounds = true
+        
+        nameLabel1.font = UIFont.boldSystemFont(ofSize: 17)
+        telefonLabel1.font = UIFont.boldSystemFont(ofSize: 17)
+        emailLabel1.font = UIFont.boldSystemFont(ofSize: 17)
     }
     
     override func viewWillAppear(_ animated: Bool) {

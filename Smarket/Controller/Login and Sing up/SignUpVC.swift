@@ -20,9 +20,12 @@ class SignUpVC: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func signUpAction(_ sender: Any) {
+        let alertTitle1 = NSLocalizedString("Password Incorrect", comment: "")
+        let alertText1 = NSLocalizedString("Please re-type password", comment: "")
+        
         if password.text != passwordConfirm.text {
             
-            let alertController = UIAlertController(title: "Password Incorrect", message: "Please re-type password", preferredStyle: .alert)
+            let alertController = UIAlertController(title: alertTitle1, message: alertText1, preferredStyle: .alert)
             
             let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             
@@ -31,6 +34,10 @@ class SignUpVC: UIViewController, UITextFieldDelegate {
         }
             
         else{
+            let alertTitle1 = NSLocalizedString("Error", comment: "")
+            let alertText1 = NSLocalizedString("The password must be at least 6 characters long or more.", comment: "")
+            
+            
             Auth.auth().createUser(withEmail: email.text!, password: password.text!)
             { (user, error) in
                 
@@ -38,7 +45,7 @@ class SignUpVC: UIViewController, UITextFieldDelegate {
                     self.performSegue(withIdentifier: "signupToHome", sender: self)
                 }
                 else{
-                    let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                    let alertController = UIAlertController(title: alertTitle1, message: alertText1, preferredStyle: .alert)
                     let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                     
                     alertController.addAction(defaultAction)

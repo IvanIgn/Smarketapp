@@ -6,4 +6,14 @@
   Copyright © 2019 TechCompetence. All rights reserved.
 */
 
-"addmail" = "add your email";
+//"addmail" = "add your email";
+
+"Error" =  "Error";
+
+"You have entered an incorrect username or password. Please enter the correct information and try again." = "You have entered an incorrect username or password. Please enter the correct information and try again.";
+
+"Password Incorrect" = "Password Incorrect";
+
+"Please re-type password" ="Vänligen skriv lösenordet igen";
+
+"No location found!" = "No location found!";
